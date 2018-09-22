@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @RequestMapping("/hellow")
     public String home () {
+        //test
         return "hi";
     }
 }
